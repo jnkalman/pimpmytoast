@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 
     // lint code
     eslint: {
-		    target: ['Gruntfile.js','app/**/*.js']
+		    target: ['Gruntfile.js', 'app.js', 'app/**/*.js']
     },
 
     // minify code
